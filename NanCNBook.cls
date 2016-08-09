@@ -176,6 +176,20 @@ citecolor=green]{hyperref}
 \appendix
 }%
 
+%% acknowledgment
+\newcommand{\acknowledgement}{%
+  \cleardoublepage
+  \chapter*{致\hspace{4ex}谢}
+  \addcontentsline{toc}{chapter}{致{\quad}谢}
+}
+
+%% acknowledgment
+\newcommand{\notation}{%
+  \cleardoublepage
+  \chapter*{符号说明}
+  \addcontentsline{toc}{chapter}{符号说明}
+}
+
 %% bibliography
 \newcommand{\cnbibliography}[1]{%
 \cleardoublepage
