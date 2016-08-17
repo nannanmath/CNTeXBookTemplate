@@ -105,6 +105,7 @@ citecolor=green]{hyperref}
   \pagestyle{plain}}
 
 %% Part Chapter and Section
+\setcounter{secnumdepth}{3}
 \RequirePackage[newparttoc]{titlesec}
 % part
 \let\oldpart\part
@@ -129,6 +130,13 @@ citecolor=green]{hyperref}
 {\S~\thesection}
 {1em}
 {}
+% subsubsection
+\titleformat{\subsubsection}
+{\bfseries}
+{\textbullet~}
+{0em}
+{}
+
 
 %% head and foot
 \RequirePackage{fancyhdr}
