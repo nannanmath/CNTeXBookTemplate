@@ -234,6 +234,16 @@ citecolor=green]{hyperref}
   }
 
 
-
+%% cnfrmfunc
+  \RequirePackage{enumitem}
+  \RequirePackage{mdframed}
+  \newenvironment{cnfrmfunc}{%
+    \begin{mdframed}
+    \begin{itemize}[leftmargin=*, label=\ding{70}, font=]
+  }%
+  {
+    \end{itemize}
+    \end{mdframed}
+  }
 
 \endinput
