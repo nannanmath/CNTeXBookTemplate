@@ -23,7 +23,7 @@ linkcolor=red,
 anchorcolor=blue,
 citecolor=green]{hyperref}
 % get math suppport
-\RequirePackage{latexsym,pifont,units,amsmath,amsfonts,amssymb,marvosym}
+\RequirePackage{latexsym,pifont,units,amsmath,amsfonts,amssymb,marvosym,mathtools}
 % insert code
 \RequirePackage{minted}
 
@@ -207,6 +207,7 @@ citecolor=green]{hyperref}
 }
 
 %% table
+\RequirePackage{makecell}
 \newenvironment{cntable}[2]{%
   \begin{table}[h]
     \setlength{\abovecaptionskip}{-5pt}
